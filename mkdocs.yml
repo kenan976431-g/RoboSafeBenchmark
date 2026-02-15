@@ -1,0 +1,121 @@
+# 网站基本信息
+site_name: RoboSafeBenchmark
+site_url: https://kenan976431-g.github.io/RoboSafeBenchmark/
+site_author: RoboSafeBenchmark Team
+site_description: A comprehensive benchmark for robotic safety evaluation
+
+# 代码仓库
+repo_name: kenan976431-g/RoboSafeBenchmark
+repo_url: https://github.com/kenan976431-g/RoboSafeBenchmark
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 RoboSafeBenchmark Team
+
+# 主题配置
+theme:
+  name: material
+  language: zh
+  
+  palette:
+    # 亮色模式
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    
+    # 暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  icon:
+    repo: fontawesome/brands/github
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+# 插件
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+
+# Markdown 扩展
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# 额外配置
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kenan976431-g/RoboSafeBenchmark
+
+# 导航结构
+nav:
+  - Home: index.md
+  - Overview:
+    - Introduction: main/overview.md
+    - Contributions: main/contributions.md
+  - Getting Started:
+    - Installation: usage/installation.md
+    - Quick Start: usage/quickstart.md
+  - Dataset:
+    - Overview: dataset/index.md
+  - Methods:
+    - Overview: methods/index.md
+  - Benchmark:
+    - Results: benchmark/results.md
+  - API Reference:
+    - Core API: api/core.md
+  - Community:
+    - Contributing: community/contributing.md

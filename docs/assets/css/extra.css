@@ -1,0 +1,18 @@
+/* 自定义样式 */
+:root {
+  --md-primary-fg-color: #2196f3;
+}
+
+.grid.cards > * {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.grid.cards > *:hover {
+  transform: translateY(-4px);
+}
+
+/* 代码块样式 */
+.highlight {
+  border-radius: 4px;
+}

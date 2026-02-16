@@ -35,3 +35,7 @@ episode = {
 ## Data Collection
 
 See our [data collection guide](collection.md) for details.
+
+## Download Datasets
+
+- **Real World Pick Task**: [Real World Pick](https://www.modelscope.cn/datasets/kenan976431/real_world_pick)

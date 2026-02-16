@@ -9,30 +9,6 @@ A comprehensive safety benchmark for robotic manipulation.
 
 Visit our [documentation website](https://kenan976431-g.github.io/RoboSafeBenchmark/) for detailed information.
 
-## 🚀 Quick Start
-
-### Local Development
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Preview documentation locally
-mkdocs serve
-
-# Visit http://127.0.0.1:8000
-```
-
-### Build and Deploy
-
-```bash
-# Build static site
-mkdocs build
-
-# Deploy to GitHub Pages
-mkdocs gh-deploy
-```
-
 ## 📁 Project Structure
 
 ```
@@ -60,17 +36,16 @@ Contributions are welcome! Please see [Contributing Guide](docs/community/contri
 If you find our work useful, please cite:
 
 ```bibtex
-@article{yourname2025robosafe,
+@article{kani2026robosafe,
   title={RoboSafeBenchmark: A Safety Benchmark},
-  author={Your Name and Others},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2025}
+  author={kani},
+  year={2026}
 }
 ```
 
 ## 📧 Contact
 
-For questions or feedback, please open an issue or contact the team.
+For questions or feedback, please open an issue or contact the team: kenan976431@gmail.com.
 
 ## 🙏 Acknowledgments
 

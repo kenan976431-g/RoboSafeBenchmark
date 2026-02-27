@@ -17,7 +17,6 @@ def load_dataset(split: str, **kwargs) -> Dataset:
     Example:
         >>> dataset = robosafe.load_dataset("train")
         >>> print(len(dataset))
-        80000
     """
 ```
 

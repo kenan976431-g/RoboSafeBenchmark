@@ -50,7 +50,3 @@ For questions or feedback, please open an issue or contact the team: kenan976431
 ## 🙏 Acknowledgments
 
 This project builds upon [RoboTwin 2.0](https://robotwin-platform.github.io/).
-
-## 📜 License
-
-MIT License - see [LICENSE](LICENSE) for details.

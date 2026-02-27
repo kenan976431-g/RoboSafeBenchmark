@@ -19,4 +19,3 @@ results = robosafe.evaluate(model)
 
 - [Detailed Installation](installation.md)
 - [API Reference](../api/core.md)
-- [Tutorials](../tutorials/index.md)

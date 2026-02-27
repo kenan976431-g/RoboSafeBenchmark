@@ -16,8 +16,8 @@ pip install robosafe
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/your-username/robosafe.git
-cd robosafe
+git clone https://github.com/kenan976431-g/RoboSafeBenchmark.git
+cd RoboSafeBenchmark
 ```
 
 ### Step 2: Install Dependencies
@@ -35,4 +35,4 @@ print(robosafe.__version__)
 
 ## Troubleshooting
 
-If you encounter any issues, please check our [FAQ](../community/faq.md) or open an issue on GitHub.
+If you encounter any issues, please open an issue on GitHub.

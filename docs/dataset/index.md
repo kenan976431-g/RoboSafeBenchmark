@@ -34,7 +34,7 @@ episode = {
 
 ## Download Datasets
 
-- **Objects**: [Objects]](https://modelscope.cn/datasets/kenan976431/RoboSafe_objects)
+- **Objects**: [Objects](https://modelscope.cn/datasets/kenan976431/RoboSafe_objects)
 - **Embodiments**: [Embodiments](https://modelscope.cn/datasets/kenan976431/RoboSafe_embodiments)
 - **Background Texture**: [Background Texture](https://modelscope.cn/datasets/kenan976431/RoboSafe_background_texture)
 - **Simulation Episodes**: [Simulation Episodes](https://modelscope.cn/datasets/kenan976431/RoboSafe_realworld_episodes)
